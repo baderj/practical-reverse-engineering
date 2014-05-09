@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="237.5px" height="110.667px" viewBox="4.166 32.5 237.5 110.667" enable-background="new 4.166 32.5 237.5 110.667"
+	 xml:space="preserve">
+<g transform="translate(5, 0)">
+</g>
+<path fill="none" enable-background="new    " d="M0,32.5"/>
+<path fill="none" enable-background="new    " d="M0,32.5"/>
+<polyline fill="none" stroke="#000000" points="225.166,37.5 225.166,77.5 48.333,77.5 48.333,38.834 "/>
+<rect x="48.333" y="77.5" fill="none" stroke="#000000" width="176.833" height="20"/>
+<g transform="translate(5, 15)">
+	<text transform="matrix(1 0 0 1 76.3328 77.5005)" font-family="'Ubuntu'" font-size="12">function parameter 2</text>
+</g>
+<rect x="48.333" y="57.5" fill="none" stroke="#000000" width="176.833" height="20"/>
+<g transform="translate(5, 15)">
+	<text transform="matrix(1 0 0 1 76.3328 57.5005)" font-family="'Ubuntu'" font-size="12">function parameter 3</text>
+</g>
+<g transform="translate(5, 15)">
+	<text transform="matrix(1 0 0 1 133.5828 37.75)" font-family="'Ubuntu'" font-size="12">...</text>
+</g>
+<rect x="48.333" y="97.5" fill="none" stroke="#000000" width="176.833" height="20"/>
+<g transform="translate(5, 15)">
+	<text transform="matrix(1 0 0 1 76.3328 97.5005)" font-family="'Ubuntu'" font-size="12">function parameter 1</text>
+</g>
+<rect x="48.333" y="117.5" fill="none" stroke="#000000" width="176.833" height="20"/>
+<g transform="translate(5, 15)">
+	<text transform="matrix(1 0 0 1 48.3328 117.5005)" font-family="'Ubuntu'" font-size="12">return address (EIP after CALL)</text>
+</g>
+<text transform="matrix(1 0 0 1 7.6663 132.5005)" font-family="'Ubuntu'" font-size="12">ESP</text>
+<path d="M33.333,124.5l6,3l-6,3V124.5z"/>
+<path d="M33.333,127.5"/>
+</svg>
