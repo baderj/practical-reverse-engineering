@@ -1,0 +1,10 @@
+- page 31, last listing: ``0x80047400h`` won't work, needs to be ``0x80047400``
+  (no trailing h)
+- page 33, middle: ``Line 42 tests the return value of Process32Next`` 
+  should read ``Line 42 tests the return value of Process32First`` 
+- page 34, ``while``-listing: ``"explorer".exe"`` should read ``"explorer.exe"``.
+- page 34, top: ``continue execution at 37`` should read ``continue execution at 73``.
+- page 34, top: ``is also a jump target in line 43`` should read 
+  ``is also a jump target in line 51``
+- check for ``th32ParentProcessID == th32ProcessID`` not mentioned
+
