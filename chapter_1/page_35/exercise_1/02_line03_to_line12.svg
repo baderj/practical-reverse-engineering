@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="620px" height="392.523px" viewBox="0 241.311 620 392.523" enable-background="new 0 241.311 620 392.523"
+	 xml:space="preserve">
+<g transform="translate(10, 10)">
+	<g transform="translate(40, 0)">
+		<g transform="translate(0, 0)">
+			<polyline fill="none" stroke="#000000" points="150,240 150,280 0,280 0,240 			"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu-Medium'" font-size="12">03: push ebp</text>
+			</g>
+		</g>
+		<g transform="translate(0, 40)">
+			<rect x="0" y="240" fill="none" stroke="#000000" width="150" height="20"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu'" font-size="12">lpvReserved</text>
+			</g>
+		</g>
+		<g transform="translate(0, 60)">
+			<rect x="0" y="240" fill="none" stroke="#000000" width="150" height="20"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu'" font-size="12">fdwReason</text>
+			</g>
+		</g>
+		<g transform="translate(0, 80)">
+			<rect x="0" y="240" fill="none" stroke="#000000" width="150" height="20"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu'" font-size="12">hinstDLL</text>
+			</g>
+		</g>
+		<g transform="translate(0, 100)">
+			<rect x="0" y="240" fill="none" stroke="#000000" width="150" height="20"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu'" font-size="12">eip</text>
+			</g>
+		</g>
+		<g transform="translate(0, 120)">
+			<rect x="0" y="240" fill="none" stroke="#000000" width="150" height="20"/>
+			<g transform="translate(5, 15)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 239.9995)" font-family="'Ubuntu'" font-size="12">ebp</text>
+			</g>
+		</g>
+		<g transform="translate(-40, 120)">
+			<text transform="matrix(1 0 0 1 -2.441406e-004 254.9995)" font-family="'Ubuntu'" font-size="12">ESP</text>
+			<path d="M32,247l6,3l-6,3V247z"/>
+			<path d="M32,250"/>
+		</g>
+	</g>
+</g>
+<g transform="translate(310, 240)">
+	<g transform="translate(10, 10)">
+		<g transform="translate(40, 0)">
+			<g transform="translate(0, 0)">
+				<polyline fill="none" stroke="#000000" points="150,0 150,40 0,40 0,0 				"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu-Medium'" font-size="12">04: mov ebp, esp</text>
+				</g>
+			</g>
+			<g transform="translate(0, 40)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">lpvReserved</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +10]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 60)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">fdwReason</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +C]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 80)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">hinstDLL</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +8]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 100)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">eip</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +4]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 120)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">ebp</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">EBP</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(-40, 120)">
+				<text transform="matrix(1 0 0 1 2.441406e-004 14.9995)" font-family="'Ubuntu'" font-size="12">ESP</text>
+				<path d="M32,7l6,3l-6,3V7z"/>
+				<path d="M32,10"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(0, 400)">
+	<g transform="translate(10, 10)">
+		<g transform="translate(40, 0)">
+			<g transform="translate(0, 0)">
+				<polyline fill="none" stroke="#000000" points="150,0 150,40 0,40 0,0 				"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu-Medium'" font-size="12">05: sub esp, 130h</text>
+				</g>
+			</g>
+			<g transform="translate(0, 40)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">lpvReserved</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +10]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 60)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">fdwReason</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +C]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 80)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">hinstDLL</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +8]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 100)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">eip</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +4]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 120)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">ebp</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">EBP</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 140)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp -4]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 160)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">(...)</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">(...)</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 180)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 -2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp -130]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(-40, 180)">
+				<text transform="matrix(1 0 0 1 -2.441406e-004 14.9995)" font-family="'Ubuntu'" font-size="12">ESP</text>
+				<path d="M32,7l6,3l-6,3V7z"/>
+				<path d="M32,10"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(310, 400)">
+	<g transform="translate(10, 10)">
+		<g transform="translate(40, 0)">
+			<g transform="translate(0, 0)">
+				<polyline fill="none" stroke="#000000" points="150,0 150,40 0,40 0,0 				"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu-Medium'" font-size="12">06: push edi</text>
+				</g>
+			</g>
+			<g transform="translate(0, 40)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">lpvReserved</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +10]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 60)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">fdwReason</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +C]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 80)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">hinstDLL</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +8]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 100)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">eip</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp +4]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 120)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">ebp</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">EBP</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 140)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp -4]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 160)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">(...)</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">(...)</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 180)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp -130]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0, 200)">
+				<rect x="0" fill="none" stroke="#000000" width="150" height="20"/>
+				<g transform="translate(5, 15)">
+					<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">edi</text>
+				</g>
+				<g transform="translate(5, 0)">
+					<g transform="translate(150, 15)">
+						<text transform="matrix(1 0 0 1 2.441406e-004 -4.882813e-004)" font-family="'Ubuntu'" font-size="12">[ebp -134]</text>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(-40, 200)">
+				<text transform="matrix(1 0 0 1 2.441406e-004 14.9995)" font-family="'Ubuntu'" font-size="12">ESP</text>
+				<path d="M32,7l6,3l-6,3V7z"/>
+				<path d="M32,10"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
