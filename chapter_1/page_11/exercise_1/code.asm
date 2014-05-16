@@ -8,7 +8,7 @@ _start:
     push byte 'x'      
     push dword my_str  
     call black_out     
-    add esp, 4         
+    add esp, 8
     mov  ebx,0         
     mov  eax,1         
     int 080h           
