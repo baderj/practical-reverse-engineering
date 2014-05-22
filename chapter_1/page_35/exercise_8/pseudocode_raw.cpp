@@ -1,9 +1,9 @@
 int __userpurge sub_1172E(struct _arg_1 *arg_1, struct _arg_1 **arg_2, 
-                int *arg_3, int a4)
+                int *arg_3, int arg_4)
 {
     int tmp;
 
-    switch ( a4 )
+    switch ( arg_4 )
     {
     case 1:
         tmp = (arg_1->off_3Ch) / 2;
@@ -18,7 +18,7 @@ int __userpurge sub_1172E(struct _arg_1 *arg_1, struct _arg_1 **arg_2,
         arg_1 += 94;
         break;
     default:
-        if ( a4 != 12 )
+        if ( arg_4 != 12 )
             return arg_1;
         tmp = (arg_1->off_8h)/2;
         arg_1 += 12;

@@ -1,9 +1,15 @@
-int __userpurge sub_1172E(struct _arg_1 *arg_1, struct _arg_1 **arg_2, 
-        int *arg_3, int a4)
-{
-    int tmp;
+struct _arg_1 {
+    /* 8 bytes of other members */
+    int off_8h;
+    /* 58 bytes of other members */
+    int off_3Ch;
+} arg_1;
 
-    switch ( a4 )
+
+int __userpurge sub_1172E(struct _arg_1 *arg_1, struct _arg_1 **arg_2, 
+        int *arg_3, int arg_4)
+{
+    switch ( arg_4 )
     {
     case 1:
         arg_1 += 64;
@@ -22,11 +28,10 @@ int __userpurge sub_1172E(struct _arg_1 *arg_1, struct _arg_1 **arg_2,
     }
 
     if( arg_1 == 12 )
-        tmp = (arg_1->off_8h) / 2;
+        *arg_3 = (arg_1->off_8h) / 2;
     else
-        tmp = (arg_1->off_3Ch) / 2;
+        *arg_3 = (arg_1->off_3Ch) / 2;
 
-    *arg_3 = tmp;
     *arg_2 = arg_1;
     return arg_1;
 }
