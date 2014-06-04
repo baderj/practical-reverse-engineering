@@ -1,0 +1,9 @@
+BOOL field63c_isnotzero(struct1 *s)
+{
+    if s == NULL then
+        return TRUE
+    elsif s->field63c == 0 then
+        return FALSE
+    else
+        return TRUE
+}

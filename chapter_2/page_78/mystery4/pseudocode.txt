@@ -1,0 +1,7 @@
+INT32 retrieve_value_at_minus8(int* something)
+{
+    if not something then
+        return NULL
+    else
+        return *(something - 8)
+}

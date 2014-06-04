@@ -1,0 +1,26 @@
+bool string2integer(char *str, int *result) {
+    index = 0
+    res = 0
+    sign = 1
+
+    # parse the (optional) sign
+    if str[index] == '+' then
+        index = index + 1
+    elsif str[index] == '-' then
+        index = index + 1
+        sign = -1
+
+    # skip any leading zeros
+    while str[index] == '0' do
+        index = index + 1
+
+    # parse the number
+    while '0' <= str[index] <= '9' do
+        res = res*10 + (str[index] - '0')
+
+    if abs(res) >= 2^31 then
+        return FALSE
+    else
+        *result = res
+        return TRUE
+}
