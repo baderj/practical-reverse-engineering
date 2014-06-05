@@ -1,0 +1,12 @@
+FUNCTION bitmask_of_match(s, m)
+    SIZE = s->size
+    ARRAY = s->array
+
+    FOR index = 0 to SIZE-1
+        IF ARRAY[index] == m THEN
+            RETURN 2^index
+    ENDFOR
+
+    RETURN 0
+
+    

@@ -1,0 +1,9 @@
+FUNCTION(integer number)
+    CASE number OF
+        6   : return "E"
+        7   : return "D"
+        8   : return "C"
+        9   : return "B"
+        OTHERS:
+            return "A"
+    ENDCASE
