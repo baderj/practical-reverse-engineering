@@ -1,0 +1,7 @@
+FUNCTION mystery7(string1)
+    len = 0
+    WHILE string1[len] != 0 DO
+        len = len + 1
+    ENDWHILE
+    RETURN len
+END

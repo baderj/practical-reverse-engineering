@@ -1,0 +1,8 @@
+FUNCTION mystery8(string1, string2, limit)
+    FOR index = 0 to limit - 1 DO 
+        IF string1[index] == 0 OR string1[index] != string2[index] THEN
+            RETURN string1[index] - string2[index]
+        ENDIF
+    ENDFOR
+    RETURN 0
+END

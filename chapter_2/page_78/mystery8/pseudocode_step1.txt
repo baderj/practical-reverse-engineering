@@ -1,0 +1,19 @@
+FUNCTION mystery8(string1, string2, limit)
+    byteArray = {0, 1, 2, ..., 255}
+    index = 0 
+    DO
+        IF limit <= 0 THEN
+            // break to line 20
+
+        R5 = string1[index]
+        limit = limit -1
+        IF R5 == 0 THEN
+            // break to line 21
+
+        R4 = byteArray[string2[index]]
+        R3 = byteArray[string1[index]]
+        index = index + 1
+    WHILE R3 != R4
+    index = index - 1
+
+    // line 21

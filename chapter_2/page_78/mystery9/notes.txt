@@ -1,0 +1,30 @@
+arg1 = "string a" // null terminated
+arg2 = "string b" // null terminated
+arg3 = 1000
+
+=> return value -1  
+
+
+
+arg1 = "string a" // null terminated
+arg2 = "string b" // null terminated
+arg3 = 3 
+
+=> return value 0
+
+arg1 = "string a" // null terminated
+arg2 = "String b" // null terminated
+arg3 = 1000 
+
+=> return value 32
+
+
+arg1 = "word" // null terminated
+arg2 = "wording" // null terminated
+arg3 = 1000 
+
+=> return value -105
+
+
+
+

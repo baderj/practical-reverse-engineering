@@ -1,0 +1,10 @@
+FUNCTION mystery8(string1, string2)
+    index = 0
+    WHILE TRUE
+        IF string1[index] == 0 OR string1[index] != string2[index] THEN
+            RETURN string1[index] - string2[index]
+        ENDIF
+        index = index + 1
+    ENDWHILE
+    RETURN 0
+END
