@@ -1,0 +1,4 @@
+NTSTATUS NTAPI RtlValidateUnicodeString	(	
+    IN ULONG Flags,
+    IN PCUNICODE_STRING	UnicodeString 
+);	

@@ -1,0 +1,3 @@
+VOID NTAPI KiInitializeTSS	(	
+    IN PKTSS 	Tss
+);	

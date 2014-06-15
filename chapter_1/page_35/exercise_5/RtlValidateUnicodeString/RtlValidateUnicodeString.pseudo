@@ -1,0 +1,7 @@
+    IF Flags != 0 THEN
+        GOTO ntdll!RtlValidateUnicodeString+0xb
+    ELSE
+        RETURN RtlUnicodeStringValidateEx(UnicodeString, 0x100)
+
+ntdll!RtlValidateUnicodeString+0x12:
+
