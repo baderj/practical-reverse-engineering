@@ -1,0 +1,5 @@
+VOID KeInitializeDpc(
+  _Out_     PRKDPC Dpc,
+  _In_      PKDEFERRED_ROUTINE DeferredRoutine,
+  _In_opt_  PVOID DeferredContext
+);

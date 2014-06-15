@@ -1,0 +1,16 @@
+kd> dt _EX_FAST_REF
+ntdll!_EX_FAST_REF
+   +0x000 Object           : Ptr32 Void
+   +0x000 RefCnt           : Pos 0, 3 Bits
+   +0x000 Value            : Uint4B
+
+
+typedef struct _EX_FAST_REF
+{
+     union
+     {
+          PVOID Object;
+          ULONG RefCnt: 3;
+          ULONG Value;
+     };
+} EX_FAST_REF, *PEX_FAST_REF;

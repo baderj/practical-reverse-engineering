@@ -1,0 +1,18 @@
+    efr_1 = FastRef->Value
+    efr_2 = FastRef->Value
+ 
+nt!ObFastDereferenceObject+0x20    
+    IF FastRef-Object == Object AND FastRef->RefCnt != 7 THEN
+        _Atomic(EX_FAST_REF) *FastRef;
+        old = *atomic_load(FastRef);
+        new = old;
+        new.RefCnt += 1;
+        IF !atomic_compare_exchange_strong(FastRef, *old, new) THEN
+           return        
+        ELSE
+            efr_1 = FastRef->value
+            goto nt!ObFastDereferenceObject+0x20    
+        ENDIF
+    ELSE
+        return ObfDereferenceObject(Object)
+    ENDIF

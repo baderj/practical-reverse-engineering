@@ -1,0 +1,166 @@
+ntdll!_KAPC
+   +0x000 Type             : UChar
+   +0x001 SpareByte0       : UChar
+   +0x002 Size             : UChar
+   +0x003 SpareByte1       : UChar
+   +0x004 SpareLong0       : Uint4B
+   +0x008 Thread           : Ptr32 _KTHREAD
+   +0x00c ApcListEntry     : _LIST_ENTRY
+   +0x014 KernelRoutine    : Ptr32     void
+   +0x018 RundownRoutine   : Ptr32     void
+   +0x01c NormalRoutine    : Ptr32     void
+   +0x020 NormalContext    : Ptr32 Void
+   +0x024 SystemArgument1  : Ptr32 Void
+   +0x028 SystemArgument2  : Ptr32 Void
+   +0x02c ApcStateIndex    : Char
+   +0x02d ApcMode          : Char
+   +0x02e Inserted         : UChar
+
+
+typedef struct _KAPC
+{
+    UCHAR Type;
+    UCHAR SpareByte0;
+    UCHAR Size;
+    UCHAR SpareByte1;
+    DWORD SpareLong0;
+    KTHREAD* Thread;
+    LIST_ENTRY ApcListEntry;
+    PVOID KernelRoutine;
+    PVOID RundownRoutine;
+    PVOID NormalRoutine;
+    PVOID NormalContext;
+    PVOID SystemArgument1;
+    PVOID SystemArgument2;
+    CHAR ApcStateIndex;
+    CHAR ApcMode;
+    UCHAR Inserted;
+};
+
+
+kd> dt _KTHREAD
+ntdll!_KTHREAD
+   +0x000 Header           : _DISPATCHER_HEADER
+   +0x010 CycleTime        : Uint8B
+   +0x018 HighCycleTime    : Uint4B
+   +0x020 QuantumTarget    : Uint8B
+   +0x028 InitialStack     : Ptr32 Void
+   +0x02c StackLimit       : Ptr32 Void
+   +0x030 KernelStack      : Ptr32 Void
+   +0x034 ThreadLock       : Uint4B
+   +0x038 ApcState         : _KAPC_STATE
+   +0x038 ApcStateFill     : [23] UChar
+   +0x04f Priority         : Char
+   +0x050 NextProcessor    : Uint2B
+   +0x052 DeferredProcessor : Uint2B
+   +0x054 ApcQueueLock     : Uint4B
+   +0x058 ContextSwitches  : Uint4B
+   +0x05c State            : UChar
+   +0x05d NpxState         : UChar
+   +0x05e WaitIrql         : UChar
+   +0x05f WaitMode         : Char
+   +0x060 WaitStatus       : Int4B
+   +0x064 WaitBlockList    : Ptr32 _KWAIT_BLOCK
+   +0x064 GateObject       : Ptr32 _KGATE
+   +0x068 KernelStackResident : Pos 0, 1 Bit
+   +0x068 ReadyTransition  : Pos 1, 1 Bit
+   +0x068 ProcessReadyQueue : Pos 2, 1 Bit
+   +0x068 WaitNext         : Pos 3, 1 Bit
+   +0x068 SystemAffinityActive : Pos 4, 1 Bit
+   +0x068 Alertable        : Pos 5, 1 Bit
+   +0x068 GdiFlushActive   : Pos 6, 1 Bit
+   +0x068 UserStackWalkActive : Pos 7, 1 Bit
+   +0x068 Reserved         : Pos 8, 24 Bits
+   +0x068 MiscFlags        : Int4B
+   +0x06c WaitReason       : UChar
+   +0x06d SwapBusy         : UChar
+   +0x06e Alerted          : [2] UChar
+   +0x070 WaitListEntry    : _LIST_ENTRY
+   +0x070 SwapListEntry    : _SINGLE_LIST_ENTRY
+   +0x078 Queue            : Ptr32 _KQUEUE
+   +0x07c WaitTime         : Uint4B
+   +0x080 KernelApcDisable : Int2B
+   +0x082 SpecialApcDisable : Int2B
+   +0x080 CombinedApcDisable : Uint4B
+   +0x084 Teb              : Ptr32 Void
+   +0x088 Timer            : _KTIMER
+   +0x088 TimerFill        : [40] UChar
+   +0x0b0 AutoAlignment    : Pos 0, 1 Bit
+   +0x0b0 DisableBoost     : Pos 1, 1 Bit
+   +0x0b0 EtwStackTraceApc1Inserted : Pos 2, 1 Bit
+   +0x0b0 EtwStackTraceApc2Inserted : Pos 3, 1 Bit
+   +0x0b0 CycleChargePending : Pos 4, 1 Bit
+   +0x0b0 CalloutActive    : Pos 5, 1 Bit
+   +0x0b0 ApcQueueable     : Pos 6, 1 Bit
+   +0x0b0 EnableStackSwap  : Pos 7, 1 Bit
+   +0x0b0 GuiThread        : Pos 8, 1 Bit
+   +0x0b0 VdmSafe          : Pos 9, 1 Bit
+   +0x0b0 ReservedFlags    : Pos 10, 22 Bits
+   +0x0b0 ThreadFlags      : Int4B
+   +0x0b8 WaitBlock        : [4] _KWAIT_BLOCK
+   +0x0b8 WaitBlockFill0   : [23] UChar
+   +0x0cf IdealProcessor   : UChar
+   +0x0b8 WaitBlockFill1   : [47] UChar
+   +0x0e7 PreviousMode     : Char
+   +0x0b8 WaitBlockFill2   : [71] UChar
+   +0x0ff ResourceIndex    : UChar
+   +0x0b8 WaitBlockFill3   : [95] UChar
+   +0x117 LargeStack       : UChar
+   +0x118 QueueListEntry   : _LIST_ENTRY
+   +0x120 TrapFrame        : Ptr32 _KTRAP_FRAME
+   +0x124 FirstArgument    : Ptr32 Void
+   +0x128 CallbackStack    : Ptr32 Void
+   +0x128 CallbackDepth    : Uint4B
+   +0x12c ServiceTable     : Ptr32 Void
+   +0x130 ApcStateIndex    : UChar
+   +0x131 BasePriority     : Char
+   +0x132 PriorityDecrement : Char
+   +0x133 Preempted        : UChar
+   +0x134 AdjustReason     : UChar
+   +0x135 AdjustIncrement  : Char
+   +0x136 Spare01          : UChar
+   +0x137 Saturation       : Char
+   +0x138 SystemCallNumber : Uint4B
+   +0x13c FreezeCount      : Uint4B
+   +0x140 UserAffinity     : Uint4B
+   +0x144 Process          : Ptr32 _KPROCESS
+   +0x148 Affinity         : Uint4B
+   +0x14c ApcStatePointer  : [2] Ptr32 _KAPC_STATE
+   +0x154 SavedApcState    : _KAPC_STATE
+   +0x154 SavedApcStateFill : [23] UChar
+   +0x16b Spare02          : UChar
+   +0x16c SuspendCount     : Char
+   +0x16d UserIdealProcessor : UChar
+   +0x16e Spare03          : UChar
+   +0x16f OtherPlatformFill : UChar
+   +0x170 Win32Thread      : Ptr32 Void
+   +0x174 StackBase        : Ptr32 Void
+   +0x178 SuspendApc       : _KAPC
+   +0x178 SuspendApcFill0  : [1] UChar
+   +0x179 Spare04          : Char
+   +0x178 SuspendApcFill1  : [3] UChar
+   +0x17b QuantumReset     : UChar
+   +0x178 SuspendApcFill2  : [4] UChar
+   +0x17c KernelTime       : Uint4B
+   +0x178 SuspendApcFill3  : [36] UChar
+   +0x19c WaitPrcb         : Ptr32 _KPRCB
+   +0x178 SuspendApcFill4  : [40] UChar
+   +0x1a0 LegoData         : Ptr32 Void
+   +0x178 SuspendApcFill5  : [47] UChar
+   +0x1a7 PowerState       : UChar
+   +0x1a8 UserTime         : Uint4B
+   +0x1ac SuspendSemaphore : _KSEMAPHORE
+   +0x1ac SuspendSemaphorefill : [20] UChar
+   +0x1c0 SListFaultCount  : Uint4B
+   +0x1c4 ThreadListEntry  : _LIST_ENTRY
+   +0x1cc MutantListHead   : _LIST_ENTRY
+   +0x1d4 SListFaultAddress : Ptr32 Void
+   +0x1d8 MdlForLockedTeb  : Ptr32 Void
+
+(see page 133)
+typedef enum _KAPC_ENVIRONMENT {
+    OriginalApcEnvironment,
+    AttachedApcEnvironment,
+    CurrentApcEnvironment,
+    InsertApcEnvironment
+} KAPC_ENVIRONMENT, *PKAPC_ENVIRONMENT;

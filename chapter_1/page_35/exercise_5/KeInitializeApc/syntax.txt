@@ -1,0 +1,10 @@
+NTKERNELAPI VOID KeInitializeApc(
+    PKAPC Apc,
+    PKTHREAD Thread,
+    KAPC_ENVIRONMENT Environment,
+    PKKERNEL_ROUTINE KernelRoutine,
+    PKRUNDOWN_ROUTINE RundownRoutine,
+    PKNORMAL_ROUTINE NormalRoutine,
+    KPROCESSOR_MODE ProcessorMode,
+    PVOID NormalContext
+);

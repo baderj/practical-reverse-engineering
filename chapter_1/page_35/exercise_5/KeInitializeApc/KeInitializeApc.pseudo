@@ -1,0 +1,42 @@
+    eax = Apc
+    edx = Environment
+    ecx = Thread
+
+    Apc->Type = 12h
+    Apc-Thread = 30h
+
+    if edx != 2 then
+        # jump to +0x20
+    else
+        # continue with +0x1a
+        # edx must be 2, so the higher bytes are 0
+        edx<7:0> = Thread->ApcStateIndex
+    endif
+
+    # line +0x20
+    Apc->Environment = Thread
+    ecx = KernelRoutine
+    Apc->KernelRoutine = ecx
+    ecx = RundownRoutine
+    Apc->ApcStateIndex = edx<7:0>
+    Apc->RundownRoutine = ecx
+    ecx = NormalRoutine
+    Apc->NormalRoutine = NormalRoutine
+    edx = 0
+    if NormalRoutine == 0 then
+        # line 0x4c
+        Apc->ApcMode = edx<7:0> # = 0
+        Apc->NormalContext = 0 # = 0 
+    else
+        # continue with +0x3e
+        ecx<7:0> = ProcessMode
+        Apc->ApcMode = ProcessMode
+        ecx = NormalContext
+        Apc->NormalContext = NormalContext
+        # jump to +0x52
+    endif
+
+    # line +0x52
+    Apc->Inserted = edx<7:0> # = 0
+    return 
+

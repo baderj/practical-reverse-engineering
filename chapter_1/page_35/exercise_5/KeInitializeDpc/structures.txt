@@ -1,0 +1,24 @@
+ntdll!_KDPC
+   +0x000 Type             : UChar
+   +0x001 Importance       : UChar
+   +0x002 Number           : Uint2B
+   +0x004 DpcListEntry     : _LIST_ENTRY
+   +0x00c DeferredRoutine  : Ptr32     void
+   +0x010 DeferredContext  : Ptr32 Void
+   +0x014 SystemArgument1  : Ptr32 Void
+   +0x018 SystemArgument2  : Ptr32 Void
+   +0x01c DpcData          : Ptr32 Void
+
+
+typedef struct _KDPC
+{
+     UCHAR Type;
+     UCHAR Importance;
+     WORD Number;
+     LIST_ENTRY DpcListEntry;
+     PVOID DeferredRoutine;
+     PVOID DeferredContext;
+     PVOID SystemArgument1;
+     PVOID SystemArgument2;
+     PVOID DpcData;
+} KDPC, *PKDPC;

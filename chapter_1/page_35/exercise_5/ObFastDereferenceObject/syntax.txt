@@ -1,0 +1,4 @@
+VOID FASTCALL ObFastDereferenceObject	(	
+    IN PEX_FAST_REF 	FastRef,
+    IN PVOID 	Object 
+)	
