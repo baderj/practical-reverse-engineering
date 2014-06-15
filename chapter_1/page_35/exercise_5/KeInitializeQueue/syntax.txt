@@ -1,0 +1,4 @@
+VOID KeInitializeQueue(
+  _Out_  PRKQUEUE Queue,
+  _In_   ULONG Count
+);
