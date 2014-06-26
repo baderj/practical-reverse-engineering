@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="459.333px" height="374.667px" viewBox="0 0 459.333 374.667" enable-background="new 0 0 459.333 374.667"
+	 xml:space="preserve">
+<rect x="373.167" y="112.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="38"/>
+<rect x="4.167" y="17.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 4.4165 9.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct1</text>
+<text transform="matrix(1 0 0 1 6.917 30.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="17.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 120.4165 9.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct2</text>
+<text transform="matrix(1 0 0 1 122.917 30.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="55.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 122.917 68.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="36.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 122.917 49.083)" font-family="'MyriadPro-Regular'" font-size="12">+5C field5C_s</text>
+<rect x="244.167" y="17.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 244.4165 9.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct4</text>
+<text transform="matrix(1 0 0 1 246.917 30.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="244.167" y="36.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 49.083)" font-family="'MyriadPro-Regular'" font-size="12">+02 field02_c</text>
+<rect x="244.167" y="55.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 68.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="244.167" y="74.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 87.083)" font-family="'MyriadPro-Regular'" font-size="12">+0C field0C_s</text>
+<rect x="244.167" y="93.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 106.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="244.167" y="112.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 125.083)" font-family="'MyriadPro-Regular'" font-size="12">+12 field12_s</text>
+<rect x="244.167" y="131.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 144.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="244.167" y="150.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 163.083)" font-family="'MyriadPro-Regular'" font-size="12">+40 field40_p</text>
+<rect x="244.167" y="169.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 246.917 182.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="373.167" y="17.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 373.4165 9.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct5</text>
+<text transform="matrix(1 0 0 1 375.9165 30.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="373.167" y="36.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<rect x="338.167" y="207.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="59" height="19"/>
+<text transform="matrix(1 0 0 1 338.4165 199.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct6</text>
+<rect x="338.167" y="226.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="59" height="19"/>
+<rect x="397.167" y="207.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="59" height="38"/>
+<text transform="matrix(1 0 0 1 375.9165 49.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="373.167" y="55.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 375.9165 68.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="373.167" y="74.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="38"/>
+<text transform="matrix(1 0 0 1 375.9165 97.083)" font-family="'MyriadPro-Regular'" font-size="12">struct6</text>
+<text transform="matrix(1 0 0 1 375.9165 134.7495)" font-family="'MyriadPro-Regular'" font-size="12">struct6</text>
+<text transform="matrix(1 0 0 1 340.9165 220.4165)" font-family="'MyriadPro-Regular'" font-size="12">8bit high</text>
+<text transform="matrix(1 0 0 1 398.9165 224.1665)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">big endian</tspan><tspan x="0" y="14.399" font-family="'MyriadPro-Regular'" font-size="12">16 bit value</tspan></text>
+<text transform="matrix(1 0 0 1 340.9165 239.4165)" font-family="'MyriadPro-Regular'" font-size="12">8bit low</text>
+<rect x="373.167" y="150.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 375.9165 163.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="99.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 120.4165 91.9165)" font-family="'MyriadPro-Regular'" font-size="12">struct3</text>
+<text transform="matrix(1 0 0 1 122.917 112.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="137.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 122.917 150.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="120.167" y="118.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 122.917 131.083)" font-family="'MyriadPro-Regular'" font-size="12">+84 field84_p</text>
+<rect x="4.167" y="36.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 49.083)" font-family="'MyriadPro-Regular'" font-size="12">+20 field20_i</text>
+<rect x="4.167" y="55.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 68.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="74.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 87.083)" font-family="'MyriadPro-Regular'" font-size="12">+28 field28_i</text>
+<rect x="4.167" y="93.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 106.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="112.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 125.083)" font-family="'MyriadPro-Regular'" font-size="12">+34 field34_s</text>
+<rect x="4.167" y="131.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 144.083)" font-family="'MyriadPro-Regular'" font-size="12">+36 field36_s</text>
+<rect x="4.167" y="150.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 163.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="169.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 182.083)" font-family="'MyriadPro-Regular'" font-size="12">+3A field3A_s</text>
+<rect x="4.167" y="188.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 201.083)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="245.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="44"/>
+<text transform="matrix(1 0 0 1 6.917 258.0825)" font-family="'MyriadPro-Regular'" font-size="12">struct2</text>
+<text transform="matrix(1 0 0 1 111.25 291.0825)" font-family="'MyriadPro-Regular'" font-size="12">4*field5A_s</text>
+<rect x="4.167" y="308.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="44"/>
+<text transform="matrix(1 0 0 1 6.917 321.0825)" font-family="'MyriadPro-Regular'" font-size="12">struct3</text>
+<rect x="4.167" y="226.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 239.0825)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="289.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 302.0825)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="352.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 365.0825)" font-family="'MyriadPro-Regular'" font-size="12">...</text>
+<rect x="4.167" y="207.167" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="83" height="19"/>
+<text transform="matrix(1 0 0 1 6.917 220.0825)" font-family="'MyriadPro-Regular'" font-size="12">+5A field5A_s</text>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="86.667,17.167 108.167,17.167 108.167,308.167 
+			93.667,308.167 		"/>
+		<g>
+			<path d="M87.167,308.167c2.84-1.054,6.363-2.852,8.547-4.756l-1.72,4.756l1.72,4.755
+				C93.53,311.017,90.006,309.219,87.167,308.167z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="86.667,17.167 98.167,17.167 98.167,245.167 
+			93.667,245.167 		"/>
+		<g>
+			<path d="M87.167,245.167c2.84-1.054,6.363-2.852,8.547-4.756l-1.72,4.756l1.72,4.755
+				C93.53,248.017,90.006,246.219,87.167,245.167z"/>
+		</g>
+	</g>
+</g>
+<rect x="105.667" y="222.667" fill="#FFFFFF" width="5" height="18"/>
+<text transform="matrix(1 0 0 1 100.583 235.6665)" font-family="'MyriadPro-Regular'" font-size="12">2*field5A_s</text>
+<g>
+	<path fill="none" d="M244.167,17.667"/>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="202.667,128.167 223.167,128.167 223.167,18.167 
+			237.667,18.167 		"/>
+		<g>
+			<path d="M243.667,18.167c-2.84,1.054-6.363,2.852-8.547,4.756l1.72-4.756l-1.72-4.755
+				C237.303,15.316,240.827,17.114,243.667,18.167z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="326.667,160.167 347.167,160.167 347.167,18.167 
+			366.667,18.167 		"/>
+		<g>
+			<path d="M372.667,18.167c-2.84,1.054-6.363,2.852-8.547,4.756l1.72-4.756l-1.72-4.755
+				C366.303,15.316,369.827,17.114,372.667,18.167z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 361.6675 77)" font-family="'MyriadPro-Regular'" font-size="12">[i]</text>
+<text transform="matrix(1 0 0 1 348.6675 114.6665)" font-family="'MyriadPro-Regular'" font-size="12">[i+1]</text>
+</svg>

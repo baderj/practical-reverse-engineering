@@ -1,0 +1,32 @@
+INT mystery11(STRUCT1 *arg1, INT *arg2, UNKNOWN *arg3) 
+
+    struct2* pS2 = arg1 + 2*(arg1->field5A_s)
+    struct3* pS3 = arg1 + 4*(arg1->field5A_s)
+    struct4* pS4 = pS3->field84_p
+
+    IF arg1->field3A_s == 0 THEN
+        int index = pS4->field0C_s + 2*pS2->field5C_s
+        unsigned short bigEndian = pS4->field40_p[index]
+        unsigned short val = CONVERT_BIG_ENDIAN_SHORT(bigEndian)
+        int index2 = pS4->field12_s & val  
+        sub_101651C(pS3, pS5[index2], arg1->field20_i)
+    ENDIF
+
+    int offset;
+    IF pS4->field02_c == 0 THEN
+        offset = arg1->field20_i;
+    ELSE
+        offset = 0;
+    ENDIF
+
+
+    int return_value = arg1->field28_i + arg1->field34_s
+    unsigned short new_value = arg1->field36_s
+
+    IF arg3 != 0 THEN
+        return_value = return_value + offset
+        new_value = new_value - offset
+    ENDIF
+
+    *arg2 = new_value
+    RETURN return_value 
